@@ -1,0 +1,38 @@
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.default {
+    padding: 100px 0;
+}
+
+.default .title {
+    text-align: center;
+}
+
+.default .title h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0 0 50px 0;
+}
+
+.default .title p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.default_btn {
+    display: inline-block;
+    padding: 12px 32px;
+    color: #fff;
+    font-size: 16px;
+    background: #000;
+}
+
+.default_btn:hover {
+    background: #fff;
+    color: #000;
+    transition: 0.5s;
+}
